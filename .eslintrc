@@ -1,0 +1,32 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "globals": {
+    "chai": true,
+    "sinon": true
+  },
+  "rules": {
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "comma-dangle": [0, "never"],
+    "indent": [2, 2, { "SwitchCase": 1 }],
+    "no-constant-condition": 2,
+    "semi": [2, "always"],
+    "no-unused-vars": 1,
+    "no-underscore-dangle": 0,
+    "keyword-spacing": [2],
+    "space-before-blocks": [2, "always"],
+    "strict": [2, "never"],
+    "quotes": [1, "single"],
+    "no-debugger": 1,
+    "no-unreachable": 2,
+    "dot-location": [2, "property"],
+    "no-duplicate-case": 2,
+    "no-extra-semi": 2
+  }
+}
